@@ -1,7 +1,14 @@
-export default function Main() {
+import { Button } from "@/components/ui/button";
+import "@/app/global.css";
+
+function Main() {
   return (
-    <>
-      <h1 className="bg-amber-200">portfolio</h1>
-    </>
+    <div className=" flex min-h-svh flex-col items-center justify-center">
+      <Button size="" variant="" className="cursor-copy">
+        Click me
+      </Button>
+    </div>
   );
 }
+
+export default Main;
